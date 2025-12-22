@@ -1,74 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-body{
+body {
     margin:0;
-    /* min-width: 100vh; */
+    min-height: 100vh;
+
     display: flex;
     flex-direction: column;
+}
 
+ul {
+    list-style-type: none;
+    display: flex;
+
+    margin: 0;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    height: 200px;
+    width:auto;
 }
 
 header {
-    background-color: #1F2937;
-}
-ul {
-    color: #fff;
-
-    margin:0;
-    padding: 0;
-    list-style-type: none;
-
-    display: flex;
-    gap: 10px;
-    /* border: 1px solid red; */
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    /* border: 1px solid red; */
-
-    padding: 20px;
-}
-
-.header__logo {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 900;
-    /* border: 1px solid red; */
-
-    font-family: Roboto,serif;
-}
-
-.header__links {
-    /* border: 1px solid red; *//
-}
-
-.hero__text {
     display: flex;
     flex-direction: column;
+    flex:2;
+    background-color:#1F2937;
+    padding-inline: 8vw;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+
+    height:100vh;
+    /* width: 100%; */
+}
+
+button {
+    color: #fff;
+    background-color:#3882f6;
+    font-weight: 900;
+
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+
+nav {
+    display: flex;
+    border: 1px solid red;
+
+    justify-content: space-between;
+}
+
+.hero__logo {
+    font-family:Roboto,serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hero__links {
+    display: flex;
+    align-items: center;
+}
+
+.hero-c {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.hero__content {
+    display: flex;
+    /* flex:1; */
+    border: 1px solid oldlace;
+
+    justify-content: space-around;
+    /* height: 600px; */
+    /* border: 1px solid red; */
+}
+
+.text {
+    display: flex;
+    flex:0;
+    flex-direction:column ;
+    border: 1px solid red;
+
+    /* width: 300px; */
 }
 
 .hero__heading {
     font-family: Roboto,serif;
     font-size: 48px;
-    color: #F9FAF8;
-    font-weight:900;
+    color: #fff;
+    font-weight: 900;
 }
 
 .hero__subheading {
-    color:#F9F8FA;
-    font-size: 18px;
-
+    color: aliceblue;
 }
-
-button {
-    background-color: #3882f6;
-    color: #fff;
-}
-
-.hero__content {
-    display: flex;
-}
-
-
