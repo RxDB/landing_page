@@ -132,3 +132,33 @@ ul{
     text-align: center;
     color: #1F2937;
 }
+
+.page3{
+    height: 100vh;
+    background-color: #E5E7EB;
+}
+
+.page3__quote-container{
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    border: 1px solid red;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.page3__quote-container .quote{
+    color: #1F2937;
+    font-weight: 400;
+    font-size: 36px;
+    font-family: Roboto,serif;
+    border: 1px solid red;
+}
+
+.page3__quote-container .quoted{
+    font-weight: 900;
+    font-family: Roboto,serif;
+}
