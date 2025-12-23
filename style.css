@@ -84,3 +84,12 @@ ul{
     width: 100%;
     height: auto;
 }
+
+.header__btn button{
+    color: #FAF9F8;
+    background-color: #3882F9;
+    font-weight: 900;
+    padding: 10px 30px;
+
+    border-radius: 10px;
+}
