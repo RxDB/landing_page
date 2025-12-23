@@ -99,13 +99,36 @@ ul{
     max-width: 1200px;
     margin: 0 auto;
 
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
 }
 
 .page2__title{
     font-family: Roboto,serif;
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
+    
+    margin: 60px;
+}
 
-    margin: 30px;
+
+.page2__images{
+    display: flex;    
+    gap: 50px;
+}
+
+.page2__images img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+    border-radius: 20px;
+    
+}
+
+.page2__image-text{
+    font-family: Roboto,serif;
+    text-align: center;
+    color: #1F2937;
 }
